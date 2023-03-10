@@ -2,64 +2,89 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8" >
-    <title>Accueil - Robbie Lens Photographie</title>
-    <link href="style/style.css" rel="stylesheet" >
-    <link href="style/index.css" rel="stylesheet" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="images/logo.png" alt="Logo Robbie Lens" >
-            <div>
-                <a href="index.html">Accueil</a>
-                <a href="a-propos.html">À propos</a>
-                <a href="portfolio.html">Portfolio</a>
+    <div class="main-container">
+        <header></header>
+        <main>
+            <div class="hebergements-and-populaires">
+                <section class="hebergements">
+
+                </section>
+                <section class="populaires">
+                    <div class="populaires-title">
+                        <h2 class="section-title">Les plus populaires</h2>
+                        <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="populaires-cards">
+                        <article class="card">
+                            <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                                    <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    <span class="sr-only">Note de 4 sur 5</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
+                                    <p class="card-subtitle">Nuit à partir de 71<span class="euro">€</span></p>
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    <span class="sr-only">Note de 4 sur 5</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Hôtel Bleu et Blanc</h3>
+                                    <p class="card-subtitle">Nuit à partir de 68<span class="euro">€</span></p>
+                                </div>
+                                <div class="card-rating">
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    <span class="sr-only">Note de 4 sur 5</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section class="accueil-introduction">
-            <div>
-                <h1>Robbie Lens Photographie</h1>
-                <p>
-                    Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
-                    plus de 5 ans maintenant, j’exerce mon métier avec la passion
-                    qui m’anime : capturer l’essence de chaque instant.
-                </p>
-                <a href="portfolio.html" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
-            </div>
-            <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
-        </section>
-        <section class="accueil-photos">
-            <h2>Mon dernier projet</h2>
-            <div>
-                <img src="images/accueil/element-1.png" alt="Twelve apostles - Australie" >
-                <img src="images/accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande" >
-                <img src="images/accueil/element-3.png" alt="Parc National d’Abel Tasman - Nouvelle-Zélande" >
-            </div>
-            <div>
-                <img src="images/accueil/element-4.png" alt="Lac Rotorua - Nouvelle-Zélande" >
-                <img src="images/accueil/element-5.png" alt="Milford Sound - Nouvelle-Zélande" >
-                <img src="images/accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande" >
-            </div>
-        </section>
-    </main>
-    <footer>
-        <img src="images/logo.png" alt="Logo Robbie Lens" >
-        <div>
-            <a target="_blank" href="https://twitter.com/" class="lien-icone">
-                <img src="images/twitter.png" alt="Logo Twitter" >
-            </a>
-            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
-                <img src="images/instagram.png" alt="Logo Instagram" >
-            </a>
-        </div>
-    </footer>
+        </main>
+        <footer></footer>
+    </div>
 </body>
 
 </html>
